@@ -1,7 +1,5 @@
 package com.recipebookproject.applepie;
 
-import java.util.Arrays;
-
 public class Apples {
     public enum TypeOfApples {
         grannysmith,
@@ -15,14 +13,15 @@ public class Apples {
     // puts the constructors in variables
     String[] classic = new String[]{};
     String[] dutch = new String[]{};
+//
+//    public TypeOfApples getApple(){
+//        return apple;
+//    }
 
-    public TypeOfApples getApple() {
-        return apple;
-    }
-
-    public void setApple(TypeOfApples apple) {
+    public void setApple( TypeOfApples apple) {
         this.apple = apple;
     }
+
 
     public void pickedApple(){
         System.out.println("i want to use "+apple+ " apples in my classic apple pie");
